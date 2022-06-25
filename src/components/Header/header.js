@@ -53,7 +53,7 @@ class Header extends React.Component {
                   </li>
                   <li className="nav-item">
                     <a className="nav-link page-scroll" href="#features">
-                      Features
+                      Nosso fluxo
                     </a>
                   </li>
                 {/* <li className="nav-item">
@@ -63,7 +63,7 @@ class Header extends React.Component {
                     </li> */}
                   <li className="nav-item">
                     <a className="nav-link page-scroll" href="#screenshots">
-                      Screenshots
+                      Produtos
                     </a>
                   </li>
                 {/*  <li className="nav-item dropdown">
@@ -102,12 +102,12 @@ class Header extends React.Component {
                     </li>*/}
                   <li className="nav-item">
                     <a className="nav-link page-scroll" href="#team">
-                      Team
+                      Time
                     </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link page-scroll" href="#contact">
-                      Contact
+                      Contato
                     </a>
                   </li>
                 </ul>
