@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 
 import Header from "../components/Header/header";
 import HeroSection from "../components/HeroSection/HeroSectionReview";
-import ReviewSection from "../components/Review";
 import FooterSection from "../components/Footer";
+import PricingSection from "../components/Pricing";
 
 class Theme extends Component {
   render() {
@@ -12,7 +12,7 @@ class Theme extends Component {
         <Header />
         <div className="main">
           <HeroSection />
-          <ReviewSection />
+          <PricingSection hideFaq={true} faq="four" bgColor="gray" />
         </div>
         <FooterSection noSubscription={true} />
       </React.Fragment>

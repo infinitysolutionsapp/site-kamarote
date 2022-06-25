@@ -64,42 +64,34 @@ module.exports = {
       "Uniquely maintain efficient expertise whereas cross functional deliverables. Continually leverage other's competitive mind share whereas enabled channels. ",
     packages: [
       {
-        price: "$29",
-        license: "Basic",
+        price: "R$ 20,00",
+        license: "Básico",
         isFeatured: false,
         features: [
-          "Push Notifications",
-          "Data Transfer",
-          "SQL Database",
-          "Search & SEO Analytics",
-          "24/7 Phone Support",
+          "Hospedagem na nuvem",
+          "24/7 Suporte",
           "2 months technical support",
           "2+ profitable keyword"
         ]
       },
       {
-        price: "$50",
+        price: "R$ 50,00",
         license: "Popular",
         isFeatured: true,
         features: [
-          "Push Notifications",
-          "Data Transfer",
-          "SQL Database",
-          "Search & SEO Analytics",
+          "Hospedagem na nuvem",
           "24/7 Phone Support",
           "6 months technical support",
           "30+ profitable keyword"
         ]
       },
       {
-        price: "$120",
+        price: "R$ 100,00",
         license: "Extended",
         isFeatured: false,
         features: [
-          "Push Notifications",
-          "Data Transfer",
-          "SQL Database",
-          "Search & SEO Analytics",
+          "Hospedagem na nuvem",
+          "Envio de notificações personalizadas",
           "24/7 Phone Support",
           "1 year technical support",
           "70+ profitable keyword"

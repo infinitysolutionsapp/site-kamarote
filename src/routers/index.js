@@ -24,6 +24,7 @@ export default class Routes extends React.PureComponent {
             <Route exact path="/" component={Theme}/>
             <Route exact path="/download" component={Download}/>
             <Route exact path="/review" component={Review}/>
+            <Route exact path="/infinitybot" component={Review}/>
             <Route exact path="/faq" component={Faq}/>
             <Route exact path="/404" component={NotFound}/>
             <Route exact path="/comingSoon" component={ComingSoon}/>

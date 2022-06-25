@@ -36,12 +36,11 @@ export default class Pricing extends React.Component {
                       </span>
                     )}
                     <h2>
-                      Afforadble Pricing and Packages <br />
-                      <span>choose your best one</span>
+                      Infinity Bot <br />
+                      <span>Escolha o seu plano</span>
                     </h2>
                     <p className="lead">
-                      Monotonectally grow strategic process improvements
-                      vis-a-vis integrated resources.
+                      Atenda seus clientes 24/7. Automatize seu atendimento agora mesmo!
                     </p>
                   </div>
                 </div>
@@ -89,7 +88,7 @@ export default class Pricing extends React.Component {
                             }
                             target="_blank"
                           >
-                            Purchase now
+                            Comprar agora
                           </a>
                         </div>
                       </div>
