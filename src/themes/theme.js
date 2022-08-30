@@ -26,14 +26,14 @@ class Theme extends Component {
           <AboutSection />
           <FeatureSection />
           <VideoSection showDownloadBtn={true} />
-          {/*<PricingSection hideFaq={true} faq="four" bgColor="gray" />*/}
-          {/*<Testimonial />*/}
+          <PricingSection hideFaq={true} faq="four" bgColor="gray" />
+          <Testimonial />
           <Screenshots />
           <TeamMember />
           <ContactSection />
-          {/*<TrustedCompany />*/}
+          <TrustedCompany />
         </div>
-        {/*<SubscribeSection />*/}
+        <SubscribeSection />
         <FooterSection />
       </React.Fragment>
     );

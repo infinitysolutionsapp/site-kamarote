@@ -42,7 +42,7 @@ class TrustedCompany extends React.Component {
                       return (
                         <div className="item single-client" key={index}>
                           <img
-                            src={company}
+                            src={"https://instagram.ffor9-1.fna.fbcdn.net/v/t51.2885-19/272776213_1991664987680798_25632111083545613_n.jpg"}
                             alt="client logo"
                             className="client-img"
                           />

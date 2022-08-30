@@ -60,7 +60,7 @@ export default class Pricing extends React.Component {
                         </div>
                         <div className="pricing-img mt-4">
                           <img
-                            src="img/basic.svg"
+                            src="https://instagram.ffor9-1.fna.fbcdn.net/v/t51.2885-19/272776213_1991664987680798_25632111083545613_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.ffor9-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=iku-wN4DFMsAX9BDsi8&edm=AHG7ALcBAAAA&ccb=7-5&oh=00_AT_QrZpQnnnU-WsTNVpIoVOdFiYWmM9uzPYutksK039TdA&oe=63150DCD&_nc_sid=5cbaad"
                             alt="pricing img"
                             className="img-fluid"
                           />
