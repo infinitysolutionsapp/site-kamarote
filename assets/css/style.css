@@ -421,6 +421,20 @@ h6,
   z-index: 9;
 }
 
+@media screen and (max-width: 500px) {
+  #hero {
+    margin-top: -120px;
+    background-size: 300px;
+    background: url("../img/mobb.png") center center;
+    position: top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 150vh;
+    
+  }
+}
+
+
 #hero .hero-container {
   position: absolute;
   bottom: 0;
@@ -544,7 +558,11 @@ h6,
     background-attachment: fixed;
   }
 }
-
+@media (min-width: 424px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
 @media (max-width: 768px) {
   #hero h1 {
     font-size: 28px;
