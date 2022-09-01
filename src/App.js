@@ -1,4 +1,6 @@
 import React, {Fragment} from "react";
+import {Scrollbars} from 'react-custom-scrollbars';
+
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import BannerHome from "./Components/BannerHome";
@@ -9,18 +11,24 @@ import FidelityCard from "./Components/FidelityCard";
 
 function App() {
   return (
-    <Fragment>
-      <Header/>
-      <BannerHome/>
+    <Scrollbars style={{
+      width: '100%',
+      height: '100vh'
+    }}>
 
-      <main id="main">
-        <FidelityCard />
-        <StoresList />
-        <About />
-        <Contact />
-      </main>
-      <Footer/>
-    </Fragment>
+      <Fragment>
+        <Header/>
+        <BannerHome/>
+
+        <main id="main">
+          <FidelityCard/>
+          <StoresList/>
+          <About/>
+          <Contact/>
+        </main>
+        <Footer/>
+      </Fragment>
+    </Scrollbars>
   );
 }
 
