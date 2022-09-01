@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="container">
 
         <div className="section-title">
-          <h2>Contact Us</h2>
+          <h2>Contate-nos</h2>
         </div>
 
         <div className="row justify-content-center">
@@ -41,18 +41,18 @@ const Contact = () => {
           <div className="col-lg-5 col-md-7">
             <form action="forms/contact.php" method="post" role="form" className="php-email-form">
               <div className="form-group">
-                <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required/>
+                <input type="text" name="name" className="form-control" id="name" placeholder="Nome" required/>
               </div>
               <div className="form-group mt-3">
-                <input type="email" className="form-control" name="email" id="email" placeholder="Your Email"
+                <input type="email" className="form-control" name="email" id="email" placeholder="Email"
                        required/>
               </div>
               <div className="form-group mt-3">
-                <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject"
+                <input type="text" className="form-control" name="subject" id="subject" placeholder="Titulo"
                        required/>
               </div>
               <div className="form-group mt-3">
-                    <textarea className="form-control" name="message" rows="5" placeholder="Message"
+                    <textarea className="form-control" name="message" rows="5" placeholder="Mensagem"
                               required></textarea>
               </div>
               <div className="my-3">
@@ -61,7 +61,7 @@ const Contact = () => {
                 <div className="sent-message">Your message has been sent. Thank you!</div>
               </div>
               <div className="text-center">
-                <button type="submit">Send Message</button>
+                <button type="submit">Enviar mensagem</button>
               </div>
             </form>
           </div>
