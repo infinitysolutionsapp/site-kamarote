@@ -6,9 +6,11 @@ const Header = () => {
     <header id="header">
       <div className="container-fluid">
 
-        <div className="logo">
-          <h1><a href="index.html"></a></h1>
-        </div>
+        {/*<div className="logo">*/}
+        {/*  <a href={'/'}>*/}
+        {/*    <h1>&nbsp;</h1>*/}
+        {/*  </a>*/}
+        {/*</div>*/}
 
         <button type="button" className="nav-toggle"><i className="bx bx-menu"></i></button>
         <nav className="nav-menu">
