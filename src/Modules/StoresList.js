@@ -30,7 +30,7 @@ const StoresList = () => {
         {
           !isLoading && stores.map((store) => {
             return (
-              <div className="col-lg-4 col-md-6 col-sm-6 d-flex align-items-stretch">
+              <div className="col-lg-3 col-md-6 col-sm-6 col-6 d-flex align-items-stretch">
                 <div className="card">
                   <img src={store.image} className="card-img-top" alt="..."/>
                   <div className="card-icon">
