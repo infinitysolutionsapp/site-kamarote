@@ -9,12 +9,12 @@ const FidelityCard = () => {
           <div className="col-lg-6">
             <img src={bbb} className="img-fluid" alt=""/>
           </div>
-          <div className="col-lg-6 pt-4 pt-lg-0">
-            <h2><strong>Cartão fidelidade Vitalicio
-              <br/>( BANK KAMAROTE DIGITAL )
-              <br/>com desconto de 10% ate 50% seguindo as regras, nos maiores e melhores eventos e lojas do
+          <div className="col-lg-6 pt-6 pt-lg-5">
+            <h3>Cartão fidelidade Vitalicio
+              <br/><h2><strong>( BANK KAMAROTE DIGITAL )</strong></h2>
+              com desconto de 10% ate 50% seguindo as regras, nos maiores e melhores eventos e lojas do
               Brasil,
-              <br/>Parceria com as maiores e melhores produtoras de Eventos do Estado.</strong></h2>
+              <br/>Parceria com as maiores e melhores produtoras de Eventos do Estado.</h3>
             <p className="fst-italic"></p>
             <ul>
             </ul>
