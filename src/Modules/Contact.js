@@ -15,7 +15,7 @@ const Contact = () => {
             <div className="info">
               <div className="address">
                 <i className="bx bx-map"></i>
-                <p>A108 Adam Street<br/>New York, NY 535022</p>
+                <p>Ceará<br/>Cascavel, Centro</p>
               </div>
 
               <div className="email">
