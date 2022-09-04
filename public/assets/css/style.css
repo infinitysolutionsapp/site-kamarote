@@ -419,6 +419,7 @@ h6,
   position: relative;
   margin-top: -80px;
   z-index: 9;
+  background-attachment: revert;
 }
 
 @media screen and (max-width: 500px) {
@@ -428,7 +429,6 @@ h6,
     background: url("../img/mobb.png") center center;
     position: top;
     background-repeat: no-repeat;
-    background-attachment: scroll;
     height: 150vh;
     
   }
@@ -555,12 +555,12 @@ h6,
 
 @media (min-width: 1024px) {
   #hero {
-    background-attachment: fixed;
+    background-attachment: revert;
   }
 }
 @media (min-width: 424px) {
   #hero {
-    background-attachment: fixed;
+    background-attachment: revert;
   }
 }
 @media (max-width: 768px) {
@@ -1053,3 +1053,46 @@ section {
   left: 0px;
 }
 /* End of Fill Button  */
+
+
+/* Fill button styling */
+.filll {
+  color: #eee;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 13px 50px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 250px;
+  margin-left: 180px;
+}
+
+.filll::after {
+  content: "";
+  background-color: #2fbf77;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.filll:hover::after {
+  top: 0px;
+  left: 0px;
+}
+/* End of Fill Button  */
+
+
+@media screen and (max-width: 500px) {
+  .filll {
+    margin-top: 220px;
+    margin-left: 30px;
+  }
+}
