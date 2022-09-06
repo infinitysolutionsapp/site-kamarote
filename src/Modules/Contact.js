@@ -15,7 +15,7 @@ const Contact = () => {
             <div className="info">
               <div className="address">
                 <i className="bx bx-map"></i>
-                <p>Ceará<br/>Cascavel, Centro</p>
+                <p>Av. Paulista, 2202 - Bela Vista<br/>São Paulo - SP / CEP-01310-300</p>
               </div>
 
               <div className="email">
