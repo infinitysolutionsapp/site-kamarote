@@ -33,6 +33,9 @@ h6,
   font-family: "Raleway", sans-serif;
 }
 
+strong {
+  color: #2fbf77;
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -617,6 +620,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 15px;
   position: relative;
+  color: #2fbf77;
 }
 
 .section-title h2::after {

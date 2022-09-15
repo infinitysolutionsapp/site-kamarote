@@ -9,6 +9,7 @@ import StoresList from "./Modules/StoresList";
 import Contact from "./Modules/Contact";
 import FidelityCard from "./Components/FidelityCard";
 import Fidelity from "Components/Fidelity";
+import FidelityApp from "Components/FidelityApp";
 
 function App() {
   return (
@@ -24,8 +25,9 @@ function App() {
         <main id="main">
           <FidelityCard/>
           <StoresList/>
-          <About/>
+          <FidelityApp />
           <Fidelity />
+          <About/>
           <Contact/>
         </main>
         <Footer/>
