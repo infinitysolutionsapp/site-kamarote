@@ -1129,31 +1129,46 @@ section {
   }
 }
 .roww {
-  background-color: #292737;;
-  justify-content: center;
-  align-items: center;
+  background-color: #ffffff;;
   width: 100%;
   height: 100%;
   
 }
+@media screen and (max-width: 900px) {
+  .roww {
+    width: 100%;
+  }
+}
 
 .imgapp{
   align-items: center;
-  margin-top: -250px;
-  padding-left: 1150px;
+  margin-top: -160px;
+  padding-left: 1115px;
   position: absolute;
 }
 
 @media screen and (max-width: 900px) {
   .imgapp {
     margin-top: 300px;
-    padding-left: 150px; 
+    padding: 50px; 
   }
 }
 
 @media screen and (max-width: 500px) {
   .imgapp {
-    margin-top: 50px;
-    padding-left: 30px; 
+    width: 50%;
+    margin-top: 0px;
+    padding-left: 110px; 
+  }
+}
+
+.image{
+  width: 230px;
+}
+
+@media screen and (max-width: 500px) {
+  .image {
+    width: 110px;
+    padding: auto;
   }
 }

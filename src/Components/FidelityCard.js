@@ -1,5 +1,5 @@
 import React from "react";
-import bbb from "./../assets/img/bbb.jpg";
+import bbb from "./../assets/img/bbb.png";
 
 const FidelityCard = () => {
   return (

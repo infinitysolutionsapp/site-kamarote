@@ -1,5 +1,5 @@
 import React from "react";
-import bbb1 from "./../assets/img/bbb1.jpg";
+import bbb1 from "./../assets/img/bbb1.jpeg";
 
 const FidelityApp = () => {
   return (

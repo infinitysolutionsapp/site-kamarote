@@ -5,15 +5,17 @@ import story from "./../assets/img/story.png";
 
 const Fidelity = () => {
   return (
-    <section>
+    <section id="contact" className="contact section-bg">
           <div className="roww">
             <img src={imag} className="img-fluid" alt=""/>
       </div>
+      <div className="social-links">
       <div className="imgapp">
       <button onclick="()">
-      <img src={app} /></button>
+      <img className="image" src={app} /></button>
       <button onclick="()">
-      <img src={story} /></button>
+      <img className="image"  src={story} /></button>
+      </div>
       </div>
     </section>
   )
