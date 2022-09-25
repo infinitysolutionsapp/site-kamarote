@@ -1,6 +1,11 @@
 import React from "react";
 
 const Contact = () => {
+
+  const handleOpenWhatsapp = () => {
+    window.open('https://api.whatsapp.com/send?phone=5585981762876');
+  }
+
   return (
     <section id="contact" className="contact section-bg">
       <div className="container">
@@ -23,9 +28,11 @@ const Contact = () => {
                 <p>contato@kamarotedigital.com</p>
               </div>
 
-              <div className="phone">
+              <div className="phone" onClick={handleOpenWhatsapp} style={{
+                cursor: 'pointer'
+              }}>
                 <i className="bx bx-phone-call"></i>
-                <p>+número</p>
+                <p>(85) 98176-2876</p>
               </div>
             </div>
 
