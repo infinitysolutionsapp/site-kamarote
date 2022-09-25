@@ -1167,13 +1167,13 @@ section {
   }
 }
 
-.image{
-  width: 180px;
-}
-
 @media screen and (max-width: 500px) {
   .image {
     width: 110px;
     padding: auto;
   }
+}
+
+.btn-img-store img {
+  cursor: pointer;
 }
