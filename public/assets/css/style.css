@@ -1128,12 +1128,17 @@ section {
 
   }
 }
+
 .roww {
-  background-color: #ffffff;;
+  background-color: #ffffff;
   width: 100%;
   height: 100%;
-  
 }
+
+.roww img {
+  width: 100%;
+}
+
 @media screen and (max-width: 900px) {
   .roww {
     width: 100%;
@@ -1142,8 +1147,8 @@ section {
 
 .imgapp{
   align-items: center;
-  margin-top: -160px;
-  padding-left: 1115px;
+  margin-top: -190px;
+  padding-left: 1415px;
   position: absolute;
 }
 
@@ -1163,7 +1168,7 @@ section {
 }
 
 .image{
-  width: 230px;
+  width: 180px;
 }
 
 @media screen and (max-width: 500px) {

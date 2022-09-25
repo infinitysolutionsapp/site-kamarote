@@ -23,17 +23,15 @@ const Contact = () => {
                 <p>contato@kamarotedigital.com</p>
               </div>
 
-              {/*<div className="phone">*/}
-              {/*  <i className="bx bx-phone-call"></i>*/}
-              {/*  <p>+número</p>*/}
-              {/*</div>*/}
+              <div className="phone">
+                <i className="bx bx-phone-call"></i>
+                <p>+número</p>
+              </div>
             </div>
 
             <div className="social-links">
-              {/*<a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>*/}
               <a href="#" className="facebook"><i className="bx bxl-facebook"></i></a>
               <a href="https://www.instagram.com/kamarotedigitalbank/" className="instagram"><i className="bx bxl-instagram"></i></a>
-              {/*<a href="#" className="linkedin"><i className="bx bxl-linkedin"></i></a>*/}
             </div>
 
           </div>

@@ -1,9 +1,11 @@
 import React from "react";
-import bbb1 from "./../assets/img/bbb1.jpeg";
+import bbb1 from "./../assets/img/bbb1.png";
 
 const FidelityApp = () => {
   return (
-    <section id="about" className="about">
+    <section id="about" className="about" style={{
+      paddingTop: 0
+    }}>
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
