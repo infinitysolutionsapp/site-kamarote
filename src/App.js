@@ -19,7 +19,7 @@ function App() {
     }}>
 
       <Fragment>
-        <Header/>
+        {/*<Header/>*/}
         <BannerHome/>
 
         <main id="main">
