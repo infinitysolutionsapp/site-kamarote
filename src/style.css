@@ -432,12 +432,6 @@ strong {
   }
 }
 
-@media screen and (max-height: 850px) {
-  #hero {
-    height: 120vh;
-  }
-}
-
 #hero .hero-container {
   position: absolute;
   bottom: 0;
