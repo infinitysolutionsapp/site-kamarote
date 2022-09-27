@@ -425,11 +425,16 @@ strong {
 
 @media screen and (max-width: 500px) {
   #hero {
-    background-size: 300px;
     background: url("assets/img/mobb.png") center center;
     position: top;
     background-repeat: no-repeat;
     height: 150vh;
+  }
+}
+
+@media screen and (max-height: 850px) {
+  #hero {
+    height: 120vh;
   }
 }
 
