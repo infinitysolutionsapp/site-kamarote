@@ -19,7 +19,7 @@ const FidelityCard = () => {
               <br/>Parceria com as maiores e melhores produtoras de Eventos do Estado.</h3>
             <p className="fst-italic"></p>
             <ul>
-            <button type="button" class="fill" style={{
+            <button type="button" className="fill" style={{
               marginTop: 20
             }}><a href="https://pay.kiwify.com.br/YNycH7R">Quero meu cartão</a></button>
             </ul>
