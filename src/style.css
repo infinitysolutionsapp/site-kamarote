@@ -922,6 +922,31 @@ section {
   }
 }
 
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .imgapp {
+    position: absolute;
+    margin-top: -135px;
+    padding-left: 970px;
+  }
+
+  .imgapp img {
+    height: 40px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1768px) {
+  .imgapp {
+    position: absolute;
+    margin-top: -250px;
+    padding-left: 1900px;
+  }
+
+  .imgapp img#app-play-store {
+    margin-left: 10px;
+  }
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1158,12 +1183,12 @@ section {
   }
 }
 
-.imgapp{
-  align-items: center;
-  margin-top: -190px;
-  padding-left: 1415px;
-  position: absolute;
-}
+/*.imgapp{*/
+/*  align-items: center;*/
+/*  margin-top: -190px;*/
+/*  padding-left: 1415px;*/
+/*  position: absolute;*/
+/*}*/
 
 @media screen and (max-width: 900px) {
   .imgapp {
