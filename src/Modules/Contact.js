@@ -28,16 +28,14 @@ const Contact = () => {
                 <p>contato@kamarotedigital.com</p>
               </div>
 
-              <div className="phone" onClick={handleOpenWhatsapp} style={{
-                cursor: 'pointer'
-              }}>
+              <div className="phone">
                 <i className="bx bx-phone-call"></i>
-                <p>(85) 98176-2876</p>
+                <p>0800-025-1010</p>
               </div>
             </div>
 
             <div className="social-links">
-              <a href="#" className="facebook"><i className="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/kamarotedigitalbank/" className="facebook"><i className="bx bxl-facebook"></i></a>
               <a href="https://www.instagram.com/kamarotedigitalbank/" className="instagram"><i className="bx bxl-instagram"></i></a>
             </div>
 
@@ -61,7 +59,7 @@ const Contact = () => {
                               required></textarea>
               </div>
               <div className="my-3">
-                <div className="loading">Loading</div>
+                <div className="loading">Carregando...</div>
                 <div className="error-message"></div>
                 <div className="sent-message">Your message has been sent. Thank you!</div>
               </div>

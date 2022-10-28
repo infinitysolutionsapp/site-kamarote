@@ -9,6 +9,10 @@ const Fidelity = () => {
     window.open('https://play.google.com/store/apps/details?id=com.infinitysolutionsapp.kamarotedigitalapp');
   }
 
+  const handleOpenIOS = () => {
+    window.open('https://apps.apple.com/us/app/kamarote-digital/id1644390610');
+  }
+
   return (
     <section id="contact" className="contact section-bg" style={{
       paddingTop: 10
@@ -18,8 +22,8 @@ const Fidelity = () => {
       </div>
       <div className="social-links">
         <div className="imgapp btn-img-store">
-          <img className="image" src={app}/>
-          <img className="image" src={story} onClick={handleOpenAndroid} />
+          <img className="image" id="app-app-store" src={app} onClick={handleOpenIOS} />
+          <img className="image" id="app-play-store" src={story} onClick={handleOpenAndroid} />
         </div>
       </div>
     </section>

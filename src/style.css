@@ -897,9 +897,28 @@ section {
 .contact .php-email-form button[type=submit]:hover {
   background: #2fbf77;
 }
+
 @media (max-width: 768px) {
   .contact .social-links {
     text-align: center;
+  }
+
+  .btn-img-store {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  img#app-app-store {
+    margin-left: -20px;
+  }
+
+  img#app-play-store {
+    margin-left: 10px;
+  }
+
+  .btn-img-store img {
+    height: 40px;
   }
 }
 
