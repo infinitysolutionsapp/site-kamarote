@@ -1,4 +1,5 @@
 import React from "react";
+import config from './../../package.json';
 
 const Footer = () => {
   return (
@@ -9,6 +10,9 @@ const Footer = () => {
         </div>
         <div className="credits">
           Designed by <a href="https://infinitysolutionsapp.com/" target={"_blank"}>Infinity Solutions</a>
+          <div className={"mt-2 fst-italic"}>
+            <span>Versão: { config.version }</span>
+          </div>
         </div>
       </div>
     </footer>
