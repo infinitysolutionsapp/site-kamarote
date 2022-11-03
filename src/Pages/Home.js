@@ -26,6 +26,7 @@ function Home() {
           <FidelityApp/>
           <Fidelity/>
           <About/>
+          {/*<BeOurPartner/>*/}
           <Contact/>
         </main>
         <Footer/>

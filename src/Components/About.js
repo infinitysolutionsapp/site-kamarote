@@ -21,6 +21,16 @@ const About = () => {
             </ul>
             <p>
             </p>
+
+            <h2><strong>Vem de Kamarote e seja nosso Parceiro!</strong></h2>
+            <p className="fst-italic">
+              Aqui sua marca será muito mais reconhecida!
+            </p>
+            <ul>
+              <li>
+                Contate-nos Whats: <a href="https://api.whatsapp.com/send?phone=5585981762876" target="_blank"><strong>(85) 98176-2876</strong></a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
