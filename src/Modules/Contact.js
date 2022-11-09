@@ -7,7 +7,9 @@ const Contact = () => {
   }
 
   return (
-    <section id="contact" className="contact section-bg">
+    <section id="contact" className="contact section-bg" style={{
+      padding: 0
+    }}>
       <div className="container">
 
         <div className="section-title">
@@ -63,7 +65,9 @@ const Contact = () => {
                 <div className="error-message"></div>
                 <div className="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div className="text-center">
+              <div className="text-center" style={{
+                marginBottom: 10
+              }}>
                 <button type="submit">Enviar mensagem</button>
               </div>
             </form>

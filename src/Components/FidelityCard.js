@@ -14,7 +14,7 @@ const FidelityCard = () => {
           }}>
             <h3>Cartão fidelidade Vitalicio
               <br/><h2><strong>( BANK KAMAROTE DIGITAL )</strong></h2>
-              com desconto de 10% ate 50% seguindo as regras, nos maiores e melhores eventos e lojas do
+              com desconto de 10% até 50% seguindo as regras, nos maiores e melhores eventos e lojas do
               Brasil,
               <br/>Parceria com as maiores e melhores produtoras de Eventos do Estado.</h3>
             <p className="fst-italic"></p>

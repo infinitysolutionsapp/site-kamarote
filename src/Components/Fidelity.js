@@ -15,7 +15,7 @@ const Fidelity = () => {
 
   return (
     <section id="contact" className="contact section-bg" style={{
-      paddingTop: 10
+      padding: 0
     }}>
       <div className="roww" >
         <img src={imag} className="img-fluid" alt="" />

@@ -2,15 +2,16 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="about" className="about">
+    <section id="about" className="about" style={{
+      padding: 0
+    }}>
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
             <img src="assets/img/bggg.jpg" className="img-fluid" alt=""/>
           </div>
           <div className="col-lg-6 pt-4 pt-lg-0">
-            <h2><strong>Pagamento Único, e seu link de acesso já é liberado no sistema fidelidade Kamarote
-              Digital.</strong></h2>
+            <h2><strong>Adquira já seu link de acesso ao sistema de fidelidade Kamarote Digital.</strong></h2>
             <p className="fst-italic">
 
             </p>
