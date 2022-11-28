@@ -862,7 +862,6 @@ section {
 @media (max-width: 768px) {
   .card-store-item {
     padding: 5px;
-    height: 260px;
   }
 
   .contact .social-links {
@@ -1209,6 +1208,25 @@ section {
   display: inline-block;
 }
 
+.card-icon-store {
+  text-align: center;
+  margin-top: -32px;
+}
+
+.card-icon-store i {
+  font-size: 18px;
+  color: #fff;
+  width: 44px;
+  height: 44px;
+  padding-top: 10px;
+  text-align: center;
+  background-color: #2fbf77;
+  border-radius: 50%;
+  text-align: center;
+  transition: 0.3s;
+  display: inline-block;
+}
+
 .img-bg-horizontal {
   background: url("assets/img/img-bg-horizontal.png") no-repeat;
   width: 100%;
@@ -1228,6 +1246,10 @@ section.about {
   padding: 0px;
 }
 
+.card-title a {
+  font-size: 12px !important;
+}
+
 @media screen and (max-width: 500px) {
   .img-store {
     width: 80px;
@@ -1237,14 +1259,26 @@ section.about {
 
   .card-icon {
     text-align: center;
-    margin-top: -18px;
+    margin-top: -8px;
   }
 
   .card-icon i {
-    width: 35px;
-    height: 35px;
-    padding-top: 10px;
-    font-size: 14px !important;
+    width: 30px;
+    height: 30px;
+    padding-top: 8px;
+    font-size: 12px !important;
+  }
+
+  .card-icon-store {
+    text-align: center;
+    margin-top: -8px;
+  }
+
+  .card-icon-store i {
+    width: 30px;
+    height: 30px;
+    padding-top: 7px;
+    font-size: 12px !important;
   }
 
   .card-store-item {
@@ -1262,5 +1296,14 @@ section.about {
 
   .imgComoUsar {
     width: 100% !important;
+  }
+
+  .card-store-item img {
+    width: 80px !important;
+    height: 80px !important;
+  }
+
+  section.section-bg {
+    padding-top: 10px;
   }
 }
