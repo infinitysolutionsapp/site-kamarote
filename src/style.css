@@ -1222,6 +1222,12 @@ section.about {
   padding-bottom: 0px;
 }
 
+.imgComoUsar {
+  height: 300px;
+  margin: 0px;
+  padding: 0px;
+}
+
 @media screen and (max-width: 500px) {
   .img-store {
     width: 80px;
@@ -1252,5 +1258,9 @@ section.about {
 
   .contact .social-links {
     text-align: left;
+  }
+
+  .imgComoUsar {
+    width: 100% !important;
   }
 }

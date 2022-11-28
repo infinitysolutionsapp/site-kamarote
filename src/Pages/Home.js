@@ -26,7 +26,6 @@ function Home() {
         <Fidelity/>
         <OpenAccount />
         <LinkApps />
-        {/*<BeOurPartner/>*/}
         <Contact/>
       </main>
       <Footer/>

@@ -25,13 +25,7 @@ const FidelityApp = () => {
             </p>
           </div>
           <div className="col-lg-4">
-            <img src={bbb1} alt="" style={{
-              marginBottom: -34,
-              width: 'auto',
-              height: 300,
-              margin: 0,
-              padding: 0
-            }} />
+            <img src={bbb1} alt="" className={"imgComoUsar"} />
           </div>
           <div className="col-lg-2">
             <div className={"flex flex-row justify-content-center"} style={{
