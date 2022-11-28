@@ -15,10 +15,10 @@ const FidelityCard = () => {
             <p className={"fs-14 fw-bold"}>
               Descontos de 10% até 85% em nossos parceiros
               credenciados, vantagens e garantias em suas compras
-              nas melhores Rojas do pais.
+              nas melhores lojas do pais.
             </p>
             <p className={"fs-14 fw-bold"}>
-              Muito mais para quem faz
+              Muito mais para quem faz. <br />
               A gente vai além pra você ganhar sempre mais.
             </p>
             <div className={"flex flex-row justify-content-center"} style={{

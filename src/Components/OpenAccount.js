@@ -1,7 +1,6 @@
 import React from "react";
 import bbb from "./../assets/img/bbb.png";
-import btnClickHere from "./../assets/img/btn-click-here.png";
-// import btnAbri from "./../assets/img/btn-abrir-conta.png";
+import btnAbrirConta from "./../assets/img/btn-abrir-conta.png";
 
 const OpenAccount = () => {
   return (
@@ -26,7 +25,7 @@ const OpenAccount = () => {
               display: 'flex',
             }}>
               <a href="https://pay.kiwify.com.br/YNycH7R" className={"btn-action"}>
-                <img src={btnClickHere} alt="Clique aqui..."/>
+                <img src={btnAbrirConta} alt="Abrir conta..."/>
               </a>
             </div>
             <img src={bbb} className="img-fluid" alt=""/>
