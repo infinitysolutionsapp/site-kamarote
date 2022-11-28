@@ -7549,6 +7549,13 @@ react-is@^18.0.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
 
+react-platform-js@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/react-platform-js/-/react-platform-js-0.0.1.tgz#9dbd3f23b9db81350aa6e996fd25f92c8c09c72d"
+  integrity sha512-+d7v0wuYBl5i2zROFOJUnGX40nWgTu363UtT1iSLS3et7S9mF9GzhkhEb3gg6RbRE1mpeUnCtMiHa3904MecIg==
+  dependencies:
+    ua-parser-js "^0.7.12"
+
 react-refresh@^0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.11.0.tgz#77198b944733f0f1f1a90e791de4541f9f074046"
@@ -8163,6 +8170,11 @@ slash@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-4.0.0.tgz#2422372176c4c6c5addb5e2ada885af984b396a7"
   integrity sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew==
+
+smart-app-banner-react@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/smart-app-banner-react/-/smart-app-banner-react-2.0.1.tgz#440954fa42f8e140c8d6ee7aa451dafa75f5e398"
+  integrity sha512-kiuu/UxsD5SvxrxOqbsNW4bgnBYD9XJjO5Zzbu3yYE4OeqJjZ/kLC6UMbyzaidpqLpYlGv5588EMMFJk2hopqg==
 
 sockjs@^0.3.24:
   version "0.3.24"
@@ -8826,6 +8838,11 @@ typedarray-to-buffer@^3.1.5:
   integrity sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q==
   dependencies:
     is-typedarray "^1.0.0"
+
+ua-parser-js@^0.7.12:
+  version "0.7.32"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.32.tgz#cd8c639cdca949e30fa68c44b7813ef13e36d211"
+  integrity sha512-f9BESNVhzlhEFf2CHMSj40NWOjYPl1YKYbrvIr/hFTDEmLq7SRbWvm7FcdcpCYT95zrOhC7gZSxjdnnTpBcwVw==
 
 unbox-primitive@^1.0.2:
   version "1.0.2"
