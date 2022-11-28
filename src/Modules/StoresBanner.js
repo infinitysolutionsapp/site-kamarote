@@ -60,7 +60,7 @@ const StoresList = () => {
     <div className={"flex flex-row justify-content-center"} style={{
       display: 'flex',
     }}>
-      <a href="https://pay.kiwify.com.br/YNycH7R" className={"btn-action"}>
+      <a href="/list-stores" className={"btn-action"}>
         <img src={btnSaibaMais} alt="Clique aqui..."/>
       </a>
     </div>

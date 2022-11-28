@@ -3,8 +3,9 @@ import { createBrowserHistory } from "history";
 import { Router, Route, Switch } from "react-router-dom";
 import Home from "./Pages/Home";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
+import ListStores from "Pages/ListStores";
 
-var hist = createBrowserHistory();
+const hist = createBrowserHistory();
 
 const Routes = () => {
   return (
@@ -12,6 +13,7 @@ const Routes = () => {
       <Switch>
         <Route component={Home} path="/" exact/>
         <Route component={PrivacyPolicy} path="/privacy-policy"/>
+        <Route component={ListStores} path="/list-stores"/>
       </Switch>
     </Router>
   )
