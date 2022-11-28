@@ -1,6 +1,7 @@
 import React from "react";
 import bbb from "./../assets/img/bbb.png";
 import btnClickHere from "./../assets/img/btn-click-here.png";
+// import btnAbri from "./../assets/img/btn-abrir-conta.png";
 
 const OpenAccount = () => {
   return (
@@ -8,7 +9,7 @@ const OpenAccount = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 pt-lg-5">
-            <p className={"fs-14 fw-bold fs-36"}>
+            <p className={"fs-14 fw-bold fs-32"}>
               A construção dessa nova&nbsp;
               <strong>expediência única</strong> e integrada é
               uma <strong>evolução</strong> ao nosso objetivo

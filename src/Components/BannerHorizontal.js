@@ -1,7 +1,7 @@
 import React from 'react';
 
 const BannerHorizontal = (props) => {
-  const customStyle = props.custom_style || {};
+  const customStyle = props.customStyle || {};
 
   return (
     <div className="img-bg-horizontal" style={{

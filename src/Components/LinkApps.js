@@ -1,9 +1,9 @@
 import React from "react";
-import imag from "./../assets/img/imag.png";
 import app from "./../assets/img/aapp.png";
 import story from "./../assets/img/sstory.png";
+import BannerHorizontal from "Components/BannerHorizontal";
 
-const Fidelity = () => {
+const LinkApps = () => {
 
   const handleOpenAndroid = () => {
     window.open('https://play.google.com/store/apps/details?id=com.infinitysolutionsapp.kamarotedigitalapp');
@@ -14,20 +14,19 @@ const Fidelity = () => {
   }
 
   return (
-    <section id="contact" className="contact section-bg" style={{
-      padding: 0
+    <BannerHorizontal customStyle={{
+      height: 80,
+      minHeight: 80,
     }}>
-      <div className="roww" >
-        <img src={imag} className="img-fluid" alt="" />
+      <div className="imgapp btn-img-store" style={{
+        paddingTop: 20,
+        paddingLeft: 40,
+      }}>
+        <img className="image" id="app-app-store" src={app} onClick={handleOpenIOS}/>
+        <img className="image" id="app-play-store" src={story} onClick={handleOpenAndroid}/>
       </div>
-      <div className="social-links">
-        <div className="imgapp btn-img-store">
-          <img className="image" id="app-app-store" src={app} onClick={handleOpenIOS} />
-          <img className="image" id="app-play-store" src={story} onClick={handleOpenAndroid} />
-        </div>
-      </div>
-    </section>
+    </BannerHorizontal>
   )
 }
 
-export default Fidelity;
+export default LinkApps;

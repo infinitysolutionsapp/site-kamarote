@@ -888,31 +888,6 @@ section {
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1400px) {
-  .imgapp {
-    position: absolute;
-    margin-top: -135px;
-    padding-left: 970px;
-  }
-
-  .imgapp img {
-    height: 40px;
-    cursor: pointer;
-  }
-}
-
-@media (min-width: 1768px) {
-  .imgapp {
-    position: absolute;
-    margin-top: -250px;
-    padding-left: 1900px;
-  }
-
-  .imgapp img#app-play-store {
-    margin-left: 10px;
-  }
-}
-
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1200,8 +1175,12 @@ section {
   font-size: 1.2rem;
 }
 
-.fs-36 {
-  font-size: 2rem;
+.fs-22 {
+  font-size: 1.3rem !important;
+}
+
+.fs-32 {
+  font-size: 2rem !important;
 }
 
 .img-store {
@@ -1269,5 +1248,9 @@ section.about {
   section.about {
     padding: 0px;
     margin-top: 0px !important;
+  }
+
+  .contact .social-links {
+    text-align: left;
   }
 }

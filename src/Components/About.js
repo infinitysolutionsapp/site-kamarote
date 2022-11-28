@@ -1,4 +1,5 @@
 import React from "react";
+import btnSaibaMais from "assets/img/btn-saiba-mais.png";
 
 const About = () => {
   return (
@@ -8,34 +9,40 @@ const About = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <img src="assets/img/bggg.jpg" className="img-fluid" alt=""/>
+            <h3 className={"header-title fw-bold primary-color text-center"}>Adquira já seu link de acesso ao sistema <br/>fidelidade KAMAROTE DIGITAL BANK!</h3>
+            <p className={"fw-bold fs-22 fst-italic text-center"}>
+              Faça suas compras nas maiores<br/>
+              lojas do pais com benefícios<br/>
+              e descontos exclusivos para<br/>
+              quem é Kamarote Digital Bank.
+            </p>
+
+            <div className={"flex flex-row justify-content-center"} style={{
+              display: 'flex',
+            }}>
+              <a href="https://pay.kiwify.com.br/YNycH7R" className={"btn-action"}>
+                <img src={btnSaibaMais} alt="Clique aqui..."/>
+              </a>
+            </div>
           </div>
           <div className="col-lg-6 pt-4 pt-lg-0">
-            <h2><strong>Adquira já seu link de acesso ao sistema de fidelidade Kamarote Digital.</strong></h2>
-            <p className="fst-italic">
-
+            <h3 className={"header-title fw-bold fs-32 primary-color text-center"}>Conta Grátis e 100% Digital</h3>
+            <p className="fw-bold fs-22">
+              Uma conta totalmente pensada<br/>
+              pra você comandar a sua<br/>
+              vida financeira e seus<br/>
+              descontos pelo celular.
             </p>
-            <ul>
-              <li>Ative seu QRCODE direto no App e use seu cupom de desconto disponível em nossos parceiros
-                credenciados
-              </li>
-            </ul>
-            <p>
+            <p className={"fw-bold fs-22"}>
+              Na sua adesão ganhe na hora<br/>
+              <strong>10 Mil em DESCONTOS em seu App.</strong><br/>
+              E utilize como quiser em todos os<br/>
+              nossos parceiros credenciados.
             </p>
-
-            <h2><strong>Vem de Kamarote e seja nosso Parceiro!</strong></h2>
-            <p className="fst-italic">
-              Aqui sua marca será muito mais reconhecida!
-            </p>
-            <ul>
-              <li>
-                Contate-nos Whats: <a href="https://api.whatsapp.com/send?phone=5585981762876"
-                                      target={"_blank"}><strong>(85) 98176-2876</strong></a>
-              </li>
-            </ul>
           </div>
         </div>
       </div>
+      <br/>
     </section>
   )
 }

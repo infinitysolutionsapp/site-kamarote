@@ -10,6 +10,7 @@ import StoresBanner from "Modules/StoresBanner";
 import BannerHome from "Components/BannerHome/BannerHome";
 import OpenAccount from "Components/OpenAccount";
 import BannerHorizontal from "Components/BannerHorizontal";
+import LinkApps from "Components/LinkApps";
 
 function Home() {
   return (
@@ -20,10 +21,11 @@ function Home() {
         <FidelityCard/>
         <StoresBanner/>
         <FidelityApp/>
-        <Fidelity/>
-        <OpenAccount />
         <BannerHorizontal />
         <About/>
+        <Fidelity/>
+        <OpenAccount />
+        <LinkApps />
         {/*<BeOurPartner/>*/}
         <Contact/>
       </main>
