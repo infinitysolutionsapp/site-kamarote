@@ -1,6 +1,8 @@
 # Kamarote Digital
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Site do App [Kamarote Digital](https://kamarotedigital.com/).
+
+### Painel Administrativo [Kamarote Digital](https://admin.kamarotedigital.com/).
 
 ## Available Scripts
 

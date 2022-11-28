@@ -414,37 +414,21 @@ strong {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
-  width: 100%;
-  height: 100vh;
-  background: url("assets/img/backk.png");
-  background-size: cover;
-  position: relative;
-  background-attachment: revert;
-}
+/*.hero {*/
+/*  background-size: cover;*/
+/*  position: relative;*/
+/*  background-attachment: revert;*/
+/*  background-repeat: no-repeat;*/
+/*}*/
 
 @media screen and (max-width: 500px) {
   #hero {
     background: url("assets/img/mobb.png") center center;
     position: top;
     background-repeat: no-repeat;
-    height: 127vh;
   }
 }
 
-#hero .hero-container {
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  padding: 0 15px;
-}
 
 #hero .hero-containerr {
   position: absolute;
@@ -675,26 +659,6 @@ section {
   margin-bottom: 30px;
 }
 
-.why-us .card-icon {
-  text-align: center;
-  margin-top: -32px;
-}
-
-.why-us .card-icon i {
-  font-size: 32px;
-  color: #fff;
-  width: 64px;
-  height: 64px;
-  padding-top: 10px;
-  text-align: center;
-  background-color: #2fbf77;
-  border-radius: 50%;
-  text-align: center;
-  border: 4px solid #fff;
-  transition: 0.3s;
-  display: inline-block;
-}
-
 .why-us .card-body {
   padding-top: 12px;
 }
@@ -721,11 +685,6 @@ section {
   color: #2fbf77;
 }
 
-@media (max-width: 1024px) {
-  .why-us {
-    background-attachment: scroll;
-  }
-}
 
 /*--------------------------------------------------------------
 # Frequenty Asked Questions
@@ -898,7 +857,14 @@ section {
   background: #2fbf77;
 }
 
+
+
 @media (max-width: 768px) {
+  .card-store-item {
+    padding: 5px;
+    height: 260px;
+  }
+
   .contact .social-links {
     text-align: center;
   }
@@ -1214,4 +1180,92 @@ section {
 
 .btn-img-store img {
   cursor: pointer;
+}
+
+.btn-action img {
+  width: 220px;
+  height: 60px;
+}
+
+.primary-color {
+  color: #2fbf77;
+}
+
+.header-title {
+  font-size: 1.4rem !important;
+}
+
+.fw-bold {
+  font-weight: bold !important;
+}
+
+.fs-14 {
+  font-size: 1.2rem;
+}
+
+.img-store {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+
+.card-icon {
+  text-align: center;
+  margin-top: -32px;
+}
+
+.card-icon i {
+  font-size: 18px;
+  color: #fff;
+  width: 54px;
+  height: 54px;
+  padding-top: 10px;
+  text-align: center;
+  background-color: #2fbf77;
+  border-radius: 50%;
+  text-align: center;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.img-bg-horizontal {
+  background: url("assets/img/img-bg-horizontal.png") no-repeat;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+section.about {
+  margin-top: 20px;
+  padding-bottom: 0px;
+}
+
+@media screen and (max-width: 500px) {
+  .img-store {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+
+  .card-icon {
+    text-align: center;
+    margin-top: -18px;
+  }
+
+  .card-icon i {
+    width: 35px;
+    height: 35px;
+    padding-top: 10px;
+    font-size: 14px !important;
+  }
+
+  .card-store-item {
+    height: auto !important;
+  }
+
+  section.about {
+    padding: 0px;
+    margin-top: 0px !important;
+  }
 }

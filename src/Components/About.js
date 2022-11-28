@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <section id="about" className="about" style={{
-      padding: 0
+      padding: 0,
     }}>
       <div className="container">
         <div className="row">
@@ -29,7 +29,8 @@ const About = () => {
             </p>
             <ul>
               <li>
-                Contate-nos Whats: <a href="https://api.whatsapp.com/send?phone=5585981762876" target={"_blank"}><strong>(85) 98176-2876</strong></a>
+                Contate-nos Whats: <a href="https://api.whatsapp.com/send?phone=5585981762876"
+                                      target={"_blank"}><strong>(85) 98176-2876</strong></a>
               </li>
             </ul>
           </div>

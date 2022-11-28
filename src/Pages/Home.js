@@ -1,37 +1,30 @@
 import React, {Fragment} from "react";
-import {Scrollbars} from 'react-custom-scrollbars';
 
 import Footer from "Components/Footer";
-import BannerHome from "Components/BannerHome";
 import About from "Components/About";
-import StoresList from "Modules/StoresList";
 import Contact from "Modules/Contact";
 import FidelityCard from "Components/FidelityCard";
 import Fidelity from "Components/Fidelity";
 import FidelityApp from "Components/FidelityApp";
+import StoresBanner from "Modules/StoresBanner";
+import BannerHome from "Components/BannerHome/BannerHome";
 
 function Home() {
   return (
-    <Scrollbars style={{
-      width: '100%',
-      height: '100vh',
-    }}>
+    <Fragment>
+      <BannerHome/>
 
-      <Fragment>
-        <BannerHome/>
-
-        <main id="main">
-          <FidelityCard/>
-          <StoresList/>
-          <FidelityApp/>
-          <Fidelity/>
-          <About/>
-          {/*<BeOurPartner/>*/}
-          <Contact/>
-        </main>
-        <Footer/>
-      </Fragment>
-    </Scrollbars>
+      <main id="main">
+        <FidelityCard/>
+        <StoresBanner/>
+        <FidelityApp/>
+        <Fidelity/>
+        <About/>
+        {/*<BeOurPartner/>*/}
+        <Contact/>
+      </main>
+      <Footer/>
+    </Fragment>
   );
 }
 

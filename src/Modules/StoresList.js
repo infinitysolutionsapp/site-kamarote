@@ -31,8 +31,7 @@ const StoresList = () => {
           !isLoading && stores.map((store) => {
             return (
               <div key={String(store.detail.id)} className="col-lg-3 col-md-6 col-sm-6 col-6 d-flex align-items-stretch">
-                <div className="card" style={{ padding: 5, height: 260
-                }}>
+                <div className="card card-store-item">
                   <img src={store.image} className="card-img-top" alt="..."/>
                   <div className="card-icon">
                     <i className="" style={{fontSize: 20}}>{store.detail.discount || 10}%</i>
