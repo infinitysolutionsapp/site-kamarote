@@ -1,4 +1,7 @@
 import React from "react";
+import btnSaibaMais from "assets/img/btn-saiba-mais.png";
+import btnEnviarMensagem from "assets/img/btn-enviar-mensagem.png";
+import btnInformacoes from "assets/img/btn-informacoes.png";
 
 const Contact = () => {
 
@@ -39,6 +42,11 @@ const Contact = () => {
             <div className="social-links">
               <a href="https://www.instagram.com/kamarotedigitalbank/" className="facebook"><i className="bx bxl-facebook"></i></a>
               <a href="https://www.instagram.com/kamarotedigitalbank/" className="instagram"><i className="bx bxl-instagram"></i></a>
+              <a href="https://pay.kiwify.com.br/YNycH7R" className={"btn-action"} style={{
+                background: 'initial'
+              }}>
+                <img src={btnInformacoes} alt="Clique aqui..."/>
+              </a>
             </div>
 
           </div>
@@ -68,7 +76,13 @@ const Contact = () => {
               <div className="text-center" style={{
                 marginBottom: 10
               }}>
-                <button type="submit">Enviar mensagem</button>
+                <div className={"flex flex-row justify-content-center"} style={{
+                  display: 'flex',
+                }}>
+                  <a href="https://pay.kiwify.com.br/YNycH7R" className={"btn-action"}>
+                    <img src={btnEnviarMensagem} alt="Clique aqui..."/>
+                  </a>
+                </div>
               </div>
             </form>
           </div>

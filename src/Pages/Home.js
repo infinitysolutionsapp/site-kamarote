@@ -8,6 +8,8 @@ import Fidelity from "Components/Fidelity";
 import FidelityApp from "Components/FidelityApp";
 import StoresBanner from "Modules/StoresBanner";
 import BannerHome from "Components/BannerHome/BannerHome";
+import OpenAccount from "Components/OpenAccount";
+import BannerHorizontal from "Components/BannerHorizontal";
 
 function Home() {
   return (
@@ -19,6 +21,8 @@ function Home() {
         <StoresBanner/>
         <FidelityApp/>
         <Fidelity/>
+        <OpenAccount />
+        <BannerHorizontal />
         <About/>
         {/*<BeOurPartner/>*/}
         <Contact/>
